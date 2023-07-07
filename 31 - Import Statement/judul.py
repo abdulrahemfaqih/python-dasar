@@ -1,0 +1,1 @@
+print(f'{"DASAR PERULANGAN" :^30}')

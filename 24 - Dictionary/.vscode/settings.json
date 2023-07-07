@@ -1,0 +1,9 @@
+{
+  "editor.fontSize": 18,
+  "workbench.colorTheme": "One Dark Darker",
+  "terminal.integrated.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "normal"
+   
+}

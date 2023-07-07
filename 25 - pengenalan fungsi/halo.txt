@@ -1,0 +1,7 @@
+memanggil fungsi tanpa parameter
+nama_fungsi()
+
+memanggil fungs dengan parameter
+nama_fungsi('faqih')
+
+

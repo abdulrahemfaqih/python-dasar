@@ -1,0 +1,48 @@
+'''
+    LOOPING DARI LIST
+'''
+
+kumpulan_angka = [1,2,3,4,5,6,7,8,9]
+peserta = ['ilham', 'ucup','siri', 'soro']
+data = ['ucup',1,2,3,4,'sama']
+
+# for loop
+print('\nFOR LOOP\n')
+
+for angka in kumpulan_angka:
+  print(f'angka = {angka}')
+
+for nama in peserta:
+  print(f'nama = {nama}')
+
+# for loop and range 
+print('\nFOR LOOP AND RANGE\n')
+
+panjang = len(kumpulan_angka)
+
+for i in range(panjang):
+  print(f'angka = {kumpulan_angka[i]}')
+
+# while
+print('\nWHILE LOOP\n')
+
+panjang = len(kumpulan_angka)
+i = 0
+
+while i < panjang:
+  print(f'angka = {kumpulan_angka[i]}')
+  i += 1
+
+# list comprehension 
+print('\nLIST COMPREHENSION\n')
+
+[print(f'data = {i}') for i in data]
+
+angka_kuadrat = [i**2 for i in kumpulan_angka]
+print(f'angka kuadrat = {angka_kuadrat}')
+
+# enumerate
+print('\nENUMERATE\n')
+
+for index, data in enumerate(data):
+  print(f'index = {index} data = {data}')
